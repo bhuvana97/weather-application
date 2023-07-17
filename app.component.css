@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    
+  }
+  #image
+{
+    width: 100%;
+}
+  @media (max-width: 848px) {
+    .container-img {
+      /* background-size: contain; */
+      width: 100%;
+    }
+  }
+ 
+
+  .container-img{
+    background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+
+
+  
