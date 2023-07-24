@@ -1,0 +1,26 @@
+
+<div class="form-container">
+<div class="card">
+  <div class="card-header text-center">
+    Weather Details
+  </div>
+  <div class="card-body">
+    <form>
+      <input type="text" [(ngModel)]="city" placeholder="Enter city" name="cityname">
+      <button type="submit"  (click)="getData()">Get Weather</button>
+    </form>
+    <div *ngIf="errorData"  class="error-message">
+      <b> {{ errorData.message }}</b>
+      
+    </div>
+    
+    <div *ngIf="weatherdata" class="weather-details">
+      <h3>{{ weatherdata.name }}</h3>
+      <p class="temperature">Temperature: {{ weatherdata.main.temp }}°C</p>
+      <p class="description">Weather: {{ weatherdata.weather[0].description }}</p>
+    </div>
+  </div>
+</div>
+
+</div>
+

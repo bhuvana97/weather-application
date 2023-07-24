@@ -1,0 +1,123 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-field {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4287f5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .input-field {
+      width: 100%;
+    }
+    
+    .btn1
+     {
+      width: 100%;
+    }
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+      /* backdrop-filter: blur(10px); */
+
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .weather-details {
+    margin-top: 20px;
+  }
+  
+  .weather-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .weather-details .temperature {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .weather-details .description {
+    margin-top: 5px;
+    font-style: italic;
+  }
+ 
+  
+/*   
+  .background_img{
+    background-image: url('https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    padding-left: 0%;
+  }
+  @media (max-width: 768px) {
+    .container {
+      background-size: contain;
+    } */
+  /* } */
+
+  .form-container{
+    background-image: url('https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    padding-left: 0%;
+  }
+  .error-message {
+    color: rgb(90, 34, 34);
+    font-size: 14px;
+    margin-top: 10px;
+    /* font-weight: 100; */
+    text-align: center;
+  }
+  
